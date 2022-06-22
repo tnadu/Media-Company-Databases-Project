@@ -1,0 +1,143 @@
+insert into SEDII values ('Constanta');
+insert into SEDII values ('Bucuresti');
+insert into SEDII values ('Iasi');
+insert into SEDII values ('Cluj');
+insert into SEDII values ('Timisoara');
+
+insert into DEPARTAMENTE values (10, 'Executiv');
+insert into DEPARTAMENTE values (20, 'Administratie');
+insert into DEPARTAMENTE values (30, 'Marketing');
+insert into DEPARTAMENTE values (40, 'Finante');
+insert into DEPARTAMENTE values (50, 'IT');
+insert into DEPARTAMENTE values (60, 'Videografie');
+insert into DEPARTAMENTE values (70, 'Fotografie');
+insert into DEPARTAMENTE values (80, 'Prelucrare');
+
+insert into JOBURI values ('DIR_EXEC', 10, 'Director', 9999, 20000);
+insert into JOBURI values ('ELECTR_ADMIN', 20, 'Electrician', 3000, 7000);
+insert into JOBURI values ('INSTAL_ADMIN', 20, 'Instalator', 2800, 6000);
+insert into JOBURI values ('SALUBR_ADMIN', 20, 'Lucrator Pentru Salubrizare', 2000, 3000);
+insert into JOBURI values ('DIR_MRK', 30, 'Marketing Director', 7000, 12000);
+insert into JOBURI values ('INTERN_MRK', 30, 'Marketing Trainee', 2700, 5000);
+insert into JOBURI values ('CNT_FNT', 40, 'Contabil', 2700, 5000);
+insert into JOBURI values ('DIR_FNT', 40, 'Director Vanzari', 6000, 10000);
+insert into JOBURI values ('SYS_IT', 50, 'Sysadmin', 6000, 10000);
+insert into JOBURI values ('HLP_IT', 50, 'Helpdesk', 3000, 6000);
+insert into JOBURI values ('DPN_IT', 50, 'Depanator', 3400, 6000);
+insert into JOBURI values ('COORD_VID', 60, 'Videograf Coordonator', 8000, 13000);
+insert into JOBURI values ('REG_VID', 60, 'Videograf', 6000, 9000);
+insert into JOBURI values ('LUM_VID', 60, 'Luminist', 3500, 5600);
+insert into JOBURI values ('GAFF_VID', 60, 'Gaffer', 3000, 5000);
+insert into JOBURI values ('COORD_FTO', 70, 'Fotograf Coordonator', 8000, 12000);
+insert into JOBURI values ('REG_FTO', 70, 'Fotograf', 5000, 8500);
+insert into JOBURI values ('AJT_FTO', 70, 'Ajutor De Fotograf', 4000, 6200);
+insert into JOBURI values ('EDIT', 80, 'Editor', 6500, 10000);
+
+insert into ANGAJATI values (100, 'DIR_EXEC', 'Bucuresti', 'Cornelius', 'Traian', 'cornelius1949@cmp.media.ro', '0732552789', TO_DATE('2021-07-22', 'YYYY-MM-DD'), 15000);
+insert into ANGAJATI values (110, 'DIR_EXEC', 'Cluj', 'Muresean', 'Bucur', 'm.bucur@cmp.media.ro', '0768215675', TO_DATE('2021-04-21', 'YYYY-MM-DD'), 16000);
+insert into ANGAJATI values (120, 'ELECTR_ADMIN', 'Constanta', 'Constantin', 'Dorel', 'c.dorel@cmp.media.ro', '0759743256', TO_DATE('2021-07-15', 'YYYY-MM-DD'), 4000);
+insert into ANGAJATI values (130, 'ELECTR_ADMIN', 'Iasi', 'Amariei', 'Ciprian', 'a.ciprian@cmp.media.ro', '0742576157', TO_DATE('2022-02-07', 'YYYY-MM-DD'), 4200);
+insert into ANGAJATI values (140, 'INSTAL_ADMIN', 'Timisoara', 'Serban', 'Daniela', 's.daniela@cmp.media.ro', '0785416951', TO_DATE('2022-03-15', 'YYYY-MM-DD'), 3000);
+insert into ANGAJATI values (150, 'SALUBR_ADMIN', 'Bucuresti', 'Filipescu', 'Liliana', 'f.liliana@cmp.media.ro', '0754862761', TO_DATE('2022-04-25', 'YYYY-MM-DD'), 2200);
+insert into ANGAJATI values (160, 'DIR_MRK', 'Iasi', 'Ivanovici', 'Constantin', 'i.constantin@cmp.media.ro', '0741597632', TO_DATE('2021-11-24', 'YYYY-MM-DD'), 7000);
+insert into ANGAJATI values (170, 'CNT_FNT', 'Bucuresti', 'Dragoveanu', 'Petre', 'd.petre@cmp.media.ro', '0752671298', TO_DATE('2021-12-04', 'YYYY-MM-DD'), 5400);
+insert into ANGAJATI values (180, 'SYS_IT', 'Cluj', 'Dobricas', 'Bogdan', 'd.bogdan@cmp.media.ro', '0742156288', TO_DATE('2022-03-15', 'YYYY-MM-DD'), 6600);
+insert into ANGAJATI values (190, 'HLP_IT', 'Constanta', 'Grigore', 'Adrian', 'g.adrian@cmp.media.ro', '0741699488', TO_DATE('2022-04-13', 'YYYY-MM-DD'), 2900);
+insert into ANGAJATI values (200, 'DPN_IT', 'Timisoara', 'Petrici', 'Dragu', 'p.dragu@cmp.media.ro', '0733215448', TO_DATE('2021-11-24', 'YYYY-MM-DD'), 3200);
+insert into ANGAJATI values (210, 'COORD_VID', 'Bucuresti', 'Costicianu', 'Viorel', 'c.viorel@cmp.media.ro', '0745887122', TO_DATE('2022-04-13', 'YYYY-MM-DD'), 7000);
+insert into ANGAJATI values (220, 'REG_VID', 'Iasi', 'Dobrovici', 'Dorin', 'd.dorin@cmp.media.ro', '0754889542', TO_DATE('2021-12-04', 'YYYY-MM-DD'), 4420);
+insert into ANGAJATI values (230, 'GAFF_VID', 'Cluj', 'Topor', 'Grigore', 't.grigore@cmp.media.ro', '0741226987', TO_DATE('2021-11-24', 'YYYY-MM-DD'), 3350.5);
+insert into ANGAJATI values (240, 'COORD_FTO', 'Timisoara', 'Fartas', 'Dobre', 'f.dobre@cmp.media.ro', '0714886999', TO_DATE('2022-02-07', 'YYYY-MM-DD'), 8000);
+insert into ANGAJATI values (250, 'REG_FTO', 'Iasi', 'Brustur', 'Mihai', 'b.mihai@cmp.media.ro', '0737845966', TO_DATE('2022-03-15', 'YYYY-MM-DD'), 4000.55);
+insert into ANGAJATI values (260, 'EDIT', 'Bucuresti', 'Dragomir', 'Sorin', 'd.sorin@cmp.media.ro', '0793467852', TO_DATE('2022-04-25', 'YYYY-MM-DD'), 5900);
+insert into ANGAJATI values (270, 'EDIT', 'Timisoara', 'Tristan', 'Petcu', 't.petcu@cmp.media.ro', '0769954887', TO_DATE('2022-04-25', 'YYYY-MM-DD'), 5155.58);
+
+insert into TIPURI_DE_ECHIPAMENTE values (1, 'Body');
+insert into TIPURI_DE_ECHIPAMENTE values (2, 'Obiectiv');
+insert into TIPURI_DE_ECHIPAMENTE values (3, 'Laptop');
+insert into TIPURI_DE_ECHIPAMENTE values (4, 'Stand');
+insert into TIPURI_DE_ECHIPAMENTE values (5, 'Lumina');
+insert into TIPURI_DE_ECHIPAMENTE values (6, 'Memorie');
+
+insert into ECHIPAMENTE values ('AAKJSD3B2H4B', 'Constanta', 1, 'Canon M5', TO_DATE('2021-07-15', 'YYYY-MM-DD'), 36);
+insert into ECHIPAMENTE values ('DH6GSSDJHSSD', 'Bucuresti', 1, 'Canon M5', TO_DATE('2021-07-17', 'YYYY-MM-DD'), 36);
+insert into ECHIPAMENTE values ('JZHDFJ6G3VVH', 'Iasi', 1, 'Canon M5', TO_DATE('2021-07-17', 'YYYY-MM-DD'), 36);
+insert into ECHIPAMENTE values ('HDF7HFYB3BFY', 'Timisoara', 1, 'SONY A7SV', TO_DATE('2022-01-10', 'YYYY-MM-DD'), 48);
+insert into ECHIPAMENTE values ('SJNBF7HB4KNF', 'Bucuresti', 1, 'SONY A7SV', TO_DATE('2022-01-10', 'YYYY-MM-DD'), 48);
+insert into ECHIPAMENTE values ('HSG673YD3H3U', 'Cluj', 1, 'SONY A7SV', TO_DATE('2022-02-05', 'YYYY-MM-DD'), 48);
+insert into ECHIPAMENTE values ('GEYB363V', 'Cluj', 2, 'SONY 35-70mm f/1.8', TO_DATE('2022-03-12', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('BHAHS6YB', 'Bucuresti', 2, 'SONY 35-70mm f/1.8', TO_DATE('2022-04-01', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('JDSDHF7T', 'Timisoara', 2, 'SONY 35-70mm f/1.8', TO_DATE('2022-02-24', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('JHSJDH62', 'Constanta', 2, 'Canon STM 35-70mm f/1.2', TO_DATE('2021-08-24', 'YYYY-MM-DD'), 36);
+insert into ECHIPAMENTE values ('HJHJ73H', 'Bucuresti', 3, 'Lenovo LEGION 7 PRO', TO_DATE('2021-03-14', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('JKG7HUR', 'Constanta', 3, 'Lenovo LEGION 7 PRO', TO_DATE('2021-03-14', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('RYUTY7Y', 'Cluj', 3, 'Lenovo LEGION 7 PRO', TO_DATE('2021-03-14', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('763H3JJ', 'Iasi', 3, 'Lenovo LEGION 7 PRO', TO_DATE('2021-03-14', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('AAWR5FA', 'Timisoara', 3, 'Lenovo LEGION 7 PRO', TO_DATE('2021-03-14', 'YYYY-MM-DD'), 24);
+insert into ECHIPAMENTE values ('YETW6ETWFT9', 'Bucuresti', 4, 'Manfrotto ELEMENT AII', TO_DATE('2020-11-04', 'YYYY-MM-DD'), 60);
+insert into ECHIPAMENTE values ('IJHT71HJ191', 'Constanta', 4, 'Manfrotto ELEMENT AII', TO_DATE('2020-11-04', 'YYYY-MM-DD'), 60);
+insert into ECHIPAMENTE values ('ATFD5R5RA40', 'Cluj', 4, 'Manfrotto ELEMENT AII', TO_DATE('2020-11-04', 'YYYY-MM-DD'), 60);
+insert into ECHIPAMENTE values ('UYRY47R7Y37', 'Iasi', 4, 'Manfrotto ELEMENT AII', TO_DATE('2020-12-24', 'YYYY-MM-DD'), 60);
+insert into ECHIPAMENTE values ('LKL76TH6A6A', 'Timisoara', 4, 'Manfrotto ELEMENT AII', TO_DATE('2020-10-06', 'YYYY-MM-DD'), 60);
+insert into ECHIPAMENTE values ('LGHT23HW', 'Bucuresti', 5, 'Aputure LIGHT III', TO_DATE('2019-06-06', 'YYYY-MM-DD'), 36);
+insert into ECHIPAMENTE values ('HJDFHS6B', 'Bucuresti', 5, 'Laxar 128GB SD PLUS', TO_DATE('2020-03-17', 'YYYY-MM-DD'), 12);
+insert into ECHIPAMENTE values ('A7ASGYG7', 'Cluj', 5, 'Laxar 128GB SD PLUS', TO_DATE('2020-03-17', 'YYYY-MM-DD'), 12);
+
+insert into ISTORIC_SERVICE values ('AAKJSD3B2H4B', TO_DATE('2020-03-17', 'YYYY-MM-DD'), TO_DATE('2020-05-17', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('BHAHS6YB', TO_DATE('2021-04-21', 'YYYY-MM-DD'), TO_DATE('2021-04-29', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('SJNBF7HB4KNF', TO_DATE('2022-01-21', 'YYYY-MM-DD'), TO_DATE('2022-04-02', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('JZHDFJ6G3VVH', TO_DATE('2022-02-03', 'YYYY-MM-DD'), TO_DATE('2022-04-10', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('JZHDFJ6G3VVH', TO_DATE('2021-02-01', 'YYYY-MM-DD'), TO_DATE('2022-04-09', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('GEYB363V', TO_DATE('2022-02-15', 'YYYY-MM-DD'), TO_DATE('2022-06-30', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('GEYB363V', TO_DATE('2022-01-05', 'YYYY-MM-DD'), TO_DATE('2022-06-22', 'YYYY-MM-DD'));
+insert into ISTORIC_SERVICE values ('GEYB363V', TO_DATE('2022-03-12', 'YYYY-MM-DD'), TO_DATE('2022-06-14', 'YYYY-MM-DD'));
+
+insert into TIPURI_DE_LICENTE values (1, 'Editare foto');
+insert into TIPURI_DE_LICENTE values (2, 'Editare video');
+insert into TIPURI_DE_LICENTE values (3, 'OS');
+insert into TIPURI_DE_LICENTE values (4, 'Grafica');
+
+insert into LICENTE values ('JHSF63G7273YT', 1, 'Adobe Lightroom', TO_DATE('2022-04-04', 'YYYY-MM-DD'), 120);
+insert into LICENTE values ('SH73678TB9JG8', 2, 'Davinci Resolve', TO_DATE('2022-04-04', 'YYYY-MM-DD'), 60);
+insert into LICENTE values ('7H5392GH2HE2I', 3, 'Windows 11 Pro', TO_DATE('2022-05-01', 'YYYY-MM-DD'), 120);
+insert into LICENTE values ('HY92H2J9UF2I1', 4, 'Adobe Illustrator', TO_DATE('2022-05-01', 'YYYY-MM-DD'), 120);
+
+insert into CLIENTI values (1000, 'J', 'VIVO', 'SRL', 'contact@vivo.ro', '0722222001');
+insert into CLIENTI values (2000, 'J', 'CITY', 'SRL', 'contact@city-mall.ro', '0700200200');
+insert into CLIENTI values (3000, 'F', 'Florinescu', 'Cosmin', 'florinescu.cosmin@gmail.com', '0724589655');
+insert into CLIENTI values (4000, 'F', 'Ivanescu', 'Dobre', 'ivanescu.dobre@proton.me', '0788246998');
+insert into CLIENTI values (5000, 'F', 'Florescu', 'Cristina', 'florescu.cristina@proton.me', '0744586942');
+insert into CLIENTI values (6000, 'F', 'Grecu', 'Xenopol', 'grecu.xenopol@protonmail.com', '0755876124');
+
+insert into EVENIMENTE values (1000000, TO_DATE('2022-05-01', 'YYYY-MM-DD'), TO_DATE('2022-05-03', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000001, TO_DATE('2022-03-22', 'YYYY-MM-DD'), TO_DATE('2022-03-22', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000002, TO_DATE('2022-03-12', 'YYYY-MM-DD'), TO_DATE('2022-03-16', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000003, TO_DATE('2022-04-02', 'YYYY-MM-DD'), TO_DATE('2022-04-03', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000004, TO_DATE('2022-01-16', 'YYYY-MM-DD'), TO_DATE('2022-01-20', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000005, TO_DATE('2022-06-01', 'YYYY-MM-DD'), TO_DATE('2022-06-05', 'YYYY-MM-DD'));
+insert into EVENIMENTE values (1000006, TO_DATE('2022-01-04', 'YYYY-MM-DD'), TO_DATE('2022-01-10', 'YYYY-MM-DD'));
+
+insert into FOLOSESTE values (250, 'GEYB363V', 1000000);
+insert into FOLOSESTE values (240, 'JZHDFJ6G3VVH', 1000000);
+insert into FOLOSESTE values (220, 'JDSDHF7T', 1000001);
+insert into FOLOSESTE values (210, 'DH6GSSDJHSSD', 1000001);
+insert into FOLOSESTE values (250, 'JDSDHF7T', 1000002);
+insert into FOLOSESTE values (210, 'DH6GSSDJHSSD', 1000002);
+insert into FOLOSESTE values (210, 'GEYB363V', 1000006);
+insert into FOLOSESTE values (210, 'BHAHS6YB', 1000006);
+
+insert into PRELUCREAZA_CU values (260, 'JHSF63G7273YT', 1000000);
+insert into PRELUCREAZA_CU values (260, 'SH73678TB9JG8', 1000000);
+insert into PRELUCREAZA_CU values (260, '7H5392GH2HE2I', 1000000);
+insert into PRELUCREAZA_CU values (270, '7H5392GH2HE2I', 1000000);
+insert into PRELUCREAZA_CU values (270, 'JHSF63G7273YT', 1000001);
+insert into PRELUCREAZA_CU values (270, 'SH73678TB9JG8', 1000001);
+insert into PRELUCREAZA_CU values (270, '7H5392GH2HE2I', 1000001);
+insert into PRELUCREAZA_CU values (260, '7H5392GH2HE2I', 1000005);
+
+insert into ORGANIZEAZA values (1000, 1000000);
+insert into ORGANIZEAZA values (2000, 1000000);
+insert into ORGANIZEAZA values (2000, 1000002);
+insert into ORGANIZEAZA values (4000, 1000001);
+insert into ORGANIZEAZA values (5000, 1000001);
+insert into ORGANIZEAZA values (3000, 1000001);
